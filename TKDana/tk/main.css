@@ -1,0 +1,48 @@
+html {
+    background: url(floap.jpg) no-repeat;
+}
+.g{
+    width: 50%;
+    margin: 0 auto;
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g1 {
+background-color: palevioletred;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 5px 0;
+}
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    background-color: palevioletred;
+    border:  solid pink;
+    width: 30px;
+    padding: 20px 20px 20px 20px;
+}
+h1{
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+button{
+    padding: 20px 20px 20px 20px;
+    background-color: palevioletred;
+    color: black;
+    border: solid pink;
+    border-radius: 20px;
+}
+button:hover {
+    color: palevioletred;
+    background: rebeccapurple;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
