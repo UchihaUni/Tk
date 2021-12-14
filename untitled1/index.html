@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form style="display: flex; flex-direction: column; width: 300px;" action="">
+    <div style="display: flex; justify-content: space-between; margin: 5px 0px;">
+        <label for="last_name">Фамилия</label>
+    <input id="last_name"
+           name="last_name"
+           pattern="[A-Za-zA-Яа-яЁё]+$"
+           type="text">
+    </div>
+    <div style="display: flex; justify-content: space-between; margin: 5px 0px;">
+    <label for="first_name">Имя</label>
+    <input id="first_name"
+           name="first_name"
+           pattern="[A-Za-zA-Яа-яЁё]+$"
+           type="text"></div>
+    <div style="display: flex; justify-content: space-between; margin: 5px 0px;">
+    <label for="father_name">Отчество</label>
+    <input id="father_name"
+           name="father_name"
+           pattern="[A-Za-zA-Яа-яЁё]+$"
+           type="text"></div>
+    <div>
+        <div style="display: flex; justify-content: space-between; margin: 5px 0px;">
+            <label for="date_name">Дата рождения</label>
+            <input id="date_name"
+                   name="date_name"
+                   min="2000-01-01"
+                   max="2022-01-01"
+                   type="date"></div>
+        <div style="display: flex; justify-content: space-between; margin: 5px 0px;">
+            <label for="phone">Номер телефона</label>
+            <input id="phone"
+                   type="tel"
+                   name="phone"
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                   </div>
+        <div>
+        <input type="submit" value="Отправить">
+    </div>
+</form>
+</body>
+</html>
