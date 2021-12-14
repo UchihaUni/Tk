@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    background-color: thistle;
+    color: black;
+    font-size: 1rem;
+}
+
+caption {
+    background-color: #7B68EE;
+    color: black;
+    font-size: 1.3rem;
+    border-bottom: 0.2rem solid slategray;
+}
+
+tr:hover {
+    background-color: slategray;
+}
+
+a {
+    padding: 8px 10px;
+    background-color: lightslategrey;
+    color: aquamarine;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: azure;
+}
+
+.from_container {
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid thistle;
+    border-radius: 15px;
+}
+
+.form_header {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid thistle;
+}
+
+.form_row {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_row:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.form_row label{
+    font-width: bold;
+    font-size: 1em;
+}
+.form_row:hover{
+    background-color: aquamarine;
+
+}
+.form_input{
+    padding: 5px;
+    border: 2px solid #7B68EE;
+    border-radius: 10px;
+}
+.form_input:hover{
+    color: red;
+    border: 2px solid black;
+}
+.form_input:focus{
+    border: 2px solid #f7f7f7;
+}
+.form_footer{
+    width: 100%;
+    padding: 10px;
+    border-top: 2px solid #7B68EE;
+    text-align: center;
+}
+.form_submit{
+    padding: 5px;
+    border: 0;
+    border-radius: 15px;
+    background-color: #7B68EE;
+}
+.form_submit:hover{
+    background-color: thistle;
+}

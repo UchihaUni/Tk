@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>PHP-MYSQL</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+<?php
+require ('db.php');
+$db = new DB();
+?>
